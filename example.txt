@@ -1,0 +1,1 @@
+x=program+example%28input%2Coutput%29%3B%0D%0A++++var+x%2Cy%3A+integer%3B%0D%0A++++function+gcd%28a%2Cb%3Ainteger%29%3Ainteger%3B%0D%0A++++begin%7Bgcd%7D%0D%0A++++if+b%3D0+then+gcd%3A%3Da%0D%0A++++else+gcd%3A%3Dgcd%28b%2Ca+mod+b%29%0D%0A++++end%7Bgcd%7D%3B%0D%0Abegin%7Bexample%7D%0D%0A++++readln%28x%2Cy%29%3B%0D%0A++++write%28gcd%28x%2Cy%29%29%0D%0Aend%7Bexample%7D.
